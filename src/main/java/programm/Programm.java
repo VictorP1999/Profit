@@ -7,6 +7,7 @@ import java.util.Scanner;
 /**
  * Created by Victor Penkin  on 23.06.2016.
  */
+
 public class Programm {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -22,6 +23,11 @@ public class Programm {
             int c = scanner.nextInt();
 
             Profit.Profit(a, b, c);
+
+            System.out.println("Для выхода из программы нажмите q -> Enter");
+            String str = scanner.next();
+            if (str.equals("q"))
+                break;
         }
     }
 }
