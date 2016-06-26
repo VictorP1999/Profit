@@ -24,10 +24,13 @@ public class Programm {
 
             Profit.Profit(a, b, c);
 
+            System.out.println("Спасибо за использование нашей программы.");
             System.out.println("Для выхода из программы нажмите q -> Enter");
+            System.out.println("Для продолжения нажмите любую другую клавишу -> Enter");
             String str = scanner.next();
-            if (str.equals("q"))
+            if (str.equals("q")) {
                 break;
+            }
         }
     }
 }
