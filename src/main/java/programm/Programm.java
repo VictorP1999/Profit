@@ -28,9 +28,8 @@ public class Programm {
             System.out.println("Для выхода из программы нажмите q -> Enter");
             System.out.println("Для продолжения нажмите любую другую клавишу -> Enter");
             String str = scanner.next();
-            if (str.equals("q")) {
+            if (str.equals("q"))
                 break;
-            }
         }
     }
 }
